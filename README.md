@@ -23,12 +23,11 @@
 - Fully responsive across devices
 
 ---
-
 ## 🌐 Live Demo
 
-🔗 [Click to View Fresh Haven](https://github.com/lucy-Kimani-hub/fresh__haven/blob/main/FRESH%20HAVEN.html)  
+🔗 [Click to View Fresh Haven]()  
 *(Make sure this matches the actual deployed URL)*
-
+file:///C:/Users/Students/AppData/Local/Microsoft/Windows/INetCache/IE/7PH60JOP/fresh[1].html
 ---
 
 ## 📬 Contact Us
