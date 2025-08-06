@@ -26,7 +26,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Click to View Fresh Haven](https://machajose.github.io/Fresh-Haven/)  
+🔗 [Click to View Fresh Haven](https://github.com/lucy-Kimani-hub/fresh__haven/blob/main/FRESH%20HAVEN.html)  
 *(Make sure this matches the actual deployed URL)*
 
 ---
