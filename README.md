@@ -26,7 +26,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Click to View Fresh Haven](file:///C:/Users/Students/AppData/Local/Microsoft/Windows/INetCache/IE/7PH60JOP/fresh[1].html) 
+🔗 [Click to View Fresh Haven](file:///C:/Users/Students/AppData/Local/Microsoft/Windows/INetCache/IE/7PH60JOP/fresh[1].html)  
 (Make sure this matches the actual deployed URL)
 
 ---
