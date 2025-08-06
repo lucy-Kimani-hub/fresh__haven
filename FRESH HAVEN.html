@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Haven</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-green-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-green-700 text-white p-6 fade-in">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between">
+      <h1 class="text-3xl font-bold">Fresh Haven</h1>
+      <p class="text-sm mt-2 sm:mt-0">Helping farmers store fresh, sell smart, and earn more.</p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-16 px-6 fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="flex justify-center mb-4">
+        <img src="https://img.icons8.com/ios-filled/50/228B22/leaf.png" alt="Fresh Haven Logo" class="w-12 h-12 animate-bounce" />
+      </div>
+      <h2 class="text-4xl font-bold mb-4">Solar-Powered Cold Storages & Groceries</h2>
+      <p class="text-lg mb-6">A reliable, affordable hub to store and sell farm produce — for just <strong>50 KSH/day</strong></p>
+      <a href="#services" class="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-full transition">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6 bg-white fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10 text-green-700">Our Services</h3>
+      <div class="grid gap-8 md:grid-cols-3 text-left">
+        <!-- Grocery Store -->
+        <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+          <h4 class="text-xl font-semibold mb-2">Fresh Grocery Market</h4>
+          <p>Access locally-sourced, high-quality fruits and vegetables picked daily. Our shelves are always fresh and ready for you.</p>
+        </div>
+
+        <!-- Cold Storage -->
+        <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+          <h4 class="text-xl font-semibold mb-2">Solar-Powered Cold Storage</h4>
+          <p>Farmers can preserve their perishable goods for only <strong>50 KSH/day</strong>, ensuring freshness and minimizing loss.</p>
+        </div>
+
+        <!-- Solar Power -->
+        <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+          <h4 class="text-xl font-semibold mb-2">Clean Energy</h4>
+          <p>Our facility is powered entirely by solar energy, reducing environmental impact while cutting operating costs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Why Choose Us Section -->
+<section class="py-16 px-6 bg-green-100 fade-in">
+  <div class="max-w-6xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-10 text-green-800">Why Choose Fresh Haven?</h3>
+    <div class="grid gap-8 md:grid-cols-3 text-left">
+      
+      <!-- Reliable Storage -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <div class="flex items-center mb-4">
+          <img src="https://img.icons8.com/ios-filled/50/4CAF50/safe.png" alt="Reliable" class="w-8 h-8 mr-3" />
+          <h4 class="text-xl font-semibold">Reliable Storage</h4>
+        </div>
+        <p>Our solar storage is always on ensuring that your produce is well preserved. In addition power outages affect us not preserving your harvest no matter what.</p>
+      </div>
+
+      <!-- Affordable Access -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <div class="flex items-center mb-4">
+          <img src="https://img.icons8.com/ios-filled/50/4CAF50/money.png" alt="Affordable" class="w-8 h-8 mr-3" />
+          <h4 class="text-xl font-semibold">Affordable Access</h4>
+        </div>
+        <p>Only 50 KSH/day for farmers — we make cold storage accessible and profitable.</p>
+      </div>
+
+      <!-- Smart Marketplace -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <div class="flex items-center mb-4">
+          <img src="https://img.icons8.com/ios-filled/50/4CAF50/online-store.png" alt="Marketplace" class="w-8 h-8 mr-3" />
+          <h4 class="text-xl font-semibold">Smart Marketplace</h4>
+        </div>
+        <p>Buyers and sellers meet in one vibrant space — Fresh Haven connects your produce to more customers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Pricing / Call-to-Action Section -->
+<section class="py-16 px-6 bg-green-100 fade-in">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-3xl font-bold text-green-800 mb-4">Affordable Cold Storage for All</h3>
+    <p class="text-lg mb-6">Only <strong>50 KSH/day</strong> to keep your produce fresh, reduce waste, and increase your profits.</p>
+    <a href="#contact" class="bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-full text-lg shadow-md transition transform hover:-translate-y-1">
+      Start Storing Today
+    </a>
+  </div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="py-16 px-6 bg-white fade-in">
+  <div class="max-w-6xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-10 text-green-700">Why Choose Fresh Haven?</h3>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-left">
+      <!-- Feature 1 -->
+      <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <h4 class="text-xl font-semibold mb-2">Eco-Friendly Power</h4>
+        <p>Our storage units run on clean solar energy — reducing carbon emissions and operational costs.</p>
+      </div>
+      
+      <!-- Feature 2 -->
+      <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <h4 class="text-xl font-semibold mb-2">Daily Affordable Rates</h4>
+        <p>Keep your harvest fresh for just <strong>50 KSH/day</strong>. No contracts, just access when you need it.</p>
+      </div>
+      
+      <!-- Feature 3 -->
+      <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <h4 class="text-xl font-semibold mb-2">Zero Produce Wastage</h4>
+        <p>Say goodbye to spoilage. Our cold rooms extend shelf-life so you sell when the price is right.</p>
+      </div>
+      
+      <!-- Feature 4 -->
+      <div class="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1 duration-300">
+        <h4 class="text-xl font-semibold mb-2">Empowering Farmers</h4>
+        <p>We give control back to the farmer with smart, simple, and sustainable cold storage access.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Contact / Join Us Section -->
+  <section id="contact" class="py-16 px-6 bg-green-100 fade-in">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6 text-green-800">Join the Fresh Haven Movement</h3>
+      <p class="text-lg mb-8">Whether you're a farmer, a buyer, or a supporter — we’d love to hear from you. Let’s build a fresher future together.</p>
+
+      <div class="text-lg">
+        <p class="mb-2">📞 <strong>+254 704 620 456</strong></p>
+      <p>📧 <strong><a href="mailto:freshhaven.ke@gmail.com" class="underline hover:text-green-700">freshhaven.ke@gmail.com</a></strong></p>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
+
+
+
+
